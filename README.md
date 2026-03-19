@@ -13,6 +13,9 @@
 # install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
+# install bun (or via npm: npm install -g bun)
+curl -fsSL https://bun.com/install | bash
+
 uv tool install ast-grep-cli
 uv tool install ruff
 uv tool install hatchling
